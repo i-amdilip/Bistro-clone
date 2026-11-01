@@ -19,7 +19,7 @@ header{
 }
 
 .navbar{
-    position: sticky;
+    position: fixed;
     display: flex;
     height: 64px;
     width: 100%;
@@ -95,8 +95,100 @@ header{
     margin-top: 2%;
 }
 
-main{
+.S1{
     display: flex;
     justify-content: center;
     padding-top: 3.9%;
+    flex-wrap: wrap;
+}
+
+.mtxt{
+    font-family: 'Lexend', sans-serif;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+#firsttxt{
+    display: flex;
+    justify-content: center;
+    padding-top: 11%;
+    flex-wrap: wrap;
+}
+
+#secondtxt{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    flex-wrap: wrap;
+}
+
+#thirdtxt{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    flex-wrap: wrap;
+}
+
+.mtxt h1{
+    padding-right: 10%;
+}
+
+.m1txt{
+    padding-right: 2%;
+}
+
+.m2txt{
+    padding-right: 5.5%;
+}
+
+.b::before{
+    content: "✦";
+    margin-right: 8px;
+    color:#4f4f4f;
+}
+
+.spara{
+    margin-top: 2%;
+    color: #4f4f4f;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: none;
+}
+
+
+#line{
+    margin-top: 5%;
+    height: .5px;
+    background-color: rgba(153, 153, 153, 0.5);
+}
+#legalfooter {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 22%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: #999;
+}
+
+.flinks{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-top: 2%;
+    padding-right: 22%;
+}
+
+a{
+    margin-top: 2%;
+    color: #999;
+    text-decoration: none;
+    line-height: 1.6;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
 }
