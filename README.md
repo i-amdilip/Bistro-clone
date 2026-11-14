@@ -1,5 +1,7 @@
 # 🍔 Bistro by Blinkit – Website Clone
 
+https://i-amdilip.github.io/Bistro-clone/ 
+
 A frontend clone of the **Bistro by Blinkit** website, created as my first web development project. The project focuses on recreating the original website's layout, visual design, sections, and footer using HTML and CSS.
 
 ## 🚀 About the Project
